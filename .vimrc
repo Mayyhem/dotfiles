@@ -79,6 +79,7 @@ set showmode
 set showcmd
 set modeline
 set ruler
+set number
 set title
 
 " Line wrapping
@@ -111,3 +112,13 @@ set expandtab
 
 " Mouse
 set mouse=a
+
+" Tabs
+nnoremap tj  :tabfirst<CR>
+nnoremap tl  :tabnext<CR>
+nnoremap th  :tabprev<CR>
+nnoremap tk  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tn  :tabnew<CR>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
