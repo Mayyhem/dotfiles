@@ -120,11 +120,18 @@ set expandtab
 set mouse=a
 
 " Tabs
-nnoremap tj  :tabfirst<CR>
-nnoremap tl  :tabnext<CR>
-nnoremap th  :tabprev<CR>
-nnoremap tk  :tablast<CR>
-nnoremap tt  :tabedit<Space>
-nnoremap tn  :tabnew<CR>
-nnoremap tm  :tabm<Space>
-nnoremap td  :tabclose<CR>
+map tj  :tabfirst<CR>
+map tl  :tabnext<CR>
+map th  :tabprev<CR>
+map tk  :tablast<CR>
+map tt  :tabedit<Space>
+map tn  :tabnew<CR>
+map tm  :tabm<Space>
+map td  :tabclose<CR>
+
+" IJKL
+map i <Up>
+map j <Left>
+map k <Down>
+noremap h i
+inoremap hh <Esc>
